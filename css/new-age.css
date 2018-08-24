@@ -176,6 +176,8 @@ header.masthead .device-container {
 }
 
 header.masthead .device-container .screen img {
+  display: table-cell;
+  vertical-align: middle;
   border-radius: 3px;
 }
 
@@ -444,3 +446,24 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   font-size: 11px;
   padding: 15px 45px;
 }
+.thumbnail_container {
+     position: relative;
+     width: 100%;
+     padding-bottom: 150%;
+	margin-bottom:0px;
+}
+
+.thumbnail {
+    position:absolute;
+    width:100%;
+    height:100%;
+}
+.thumbnail img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
