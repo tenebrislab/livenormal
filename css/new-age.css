@@ -41,11 +41,14 @@ h6 {
   letter-spacing: 1px;
 }
 
-p {
-  font-size: 18px;
+p.small {
+  font-size: 14px;
   line-height: 1.5;
   margin-bottom: 20px;
 }
+
+
+
 
 section {
   padding: 100px 0;
@@ -196,6 +199,69 @@ header.masthead .device-container .screen img {
     font-size: 50px;
   }
   header.masthead .device-container {
+    max-width: 325px;
+  }
+}
+
+header.mastfoot {
+  position: relative;
+  width: 100%;
+  padding-top: 150px;
+  padding-bottom: 20px;
+  color: white;
+  background: url("../img/bg-pattern.png"), #303030;
+  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #303030, #303030);
+  background: url("../img/bg-pattern.png"), linear-gradient(to left, #303030, #303030);
+}
+
+
+header.mastfoot .header-content {
+  max-width: 500px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+  text-align: center;
+}
+
+header.mastfoot .header-content h1 {
+  font-size: 30px;
+}
+
+header.mastfoot .device-container {
+  max-width: 325px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+header.mastfoot .device-container .screen img {
+  display: table-cell;
+  vertical-align: middle;
+  border-radius: 3px;
+}
+
+.modal-body {
+  color: white;
+  background: url("../img/bg-pattern.png"), #303030;
+  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #303030, #303030);
+  background: url("../img/bg-pattern.png"), linear-gradient(to left, #303030, #303030);
+
+}
+
+@media (min-width: 992px) {
+  header.mastfoot {
+    height: 10vh;
+    min-height: 250px;
+    padding-top: 20px;
+    padding-bottom: 0;
+  }
+  header.mastfoot .header-content {
+    margin-bottom: 0;
+    text-align: left;
+  }
+  header.mastfoot .header-content h1 {
+    font-size: 50px;
+  }
+  header.mastfoot .device-container {
     max-width: 325px;
   }
 }
@@ -467,3 +533,5 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
     margin: auto;
 }
 
+
+/* typography */

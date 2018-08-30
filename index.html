@@ -11,7 +11,7 @@
     <title>Live Normal by Tenebris Lab</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
     <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
@@ -70,11 +70,11 @@
                   <div class="screen">
 				  	<div class="thumbnail_container">
 						<div class="thumbnail">
-				   
+
                     <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
                     <img src="img/Screens.gif" class="img-fluid mx-auto" alt="">
 					      </div>
-						</div>  
+						</div>
                   </div>
                   <div class="button">
                     <!-- You can hook the "home button" to some JavaScript events or just remove it -->
@@ -120,7 +120,7 @@
                     <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
                     <img src="img/Screens.gif" class="img-fluid" alt="">
 					      </div>
-						</div>  
+						</div>
                   </div>
                   <div class="button">
                     <!-- You can hook the "home button" to some JavaScript events or just remove it -->
@@ -169,6 +169,61 @@
       </div>
     </section>
 
+    <header class="mastfoot">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <h2 class="pt-2 text-center font-weight-bold">What our users are saying</h2>
+
+              <div class="carousel-controls testimonial-carousel-controls">
+                <div class="control d-flex align-items-center justify-content-center prev mt-3"><i class="fa fa-chevron-left"></i></div>
+                <div class="control d-flex align-items-center justify-content-center next mt-3"><i class="fa fa-chevron-right"></i></div>
+
+                <div class="testimonial-carousel">
+                  <div class="h5 font-weight-normal one-slide mx-auto">
+                    <div class="testimonial w-100 px-3 text-center d-flex flex-direction-column justify-content-center flex-wrap align-items-center">
+                      <div class="message text-center blockquote w-100">"Where has this been all my life! The ability to capture and synthesize materials on the fly anywhere. A dream come true!"</div>
+                      <div class="message text-center blockquote w-100">-⋆⋆⋆⋆⋆-</div>
+                      <div class="blockquote-footer w-100 text-white">DCargol, App Store</div>
+                    </div>
+                  </div>
+                  <div class="h5 font-weight-normal one-slide mx-auto">
+                    <div class="testimonial w-100 px-3 text-center  d-flex flex-direction-column justify-content-center flex-wrap align-items-center">
+                      <div class="message text-center blockquote w-100">"This app has helped me develop a quick texture library on the go! a very useful tool that's helped me we my uni work, thank you dude!!! :)"</div>
+                      <div class="message text-center blockquote w-100">-⋆⋆⋆⋆⋆-</div>
+                      <div class="blockquote-footer w-100 text-white"> C3442615 , App Store</div>
+                    </div>
+                  </div>
+                  <div class="h5 font-weight-normal one-slide mx-auto">
+                    <div class="testimonial w-100 px-3 text-center  d-flex flex-direction-column justify-content-center flex-wrap align-items-center">
+                      <div class="message text-center blockquote w-100">This is the most amazing thing for making materials, it's accessible, it exports mutilple maps per material, it's fast, it's connected to Google drive. Oh yes, this is the real deal.</div>
+                      <div class="message text-center blockquote w-100">-⋆⋆⋆⋆⋆-</div>
+                      <div class="blockquote-footer w-100 text-white">David John Walsh Jr., Play Store</div>
+                    </div>
+                  </div>
+                  <div class="h5 font-weight-normal one-slide mx-auto">
+                    <div class="testimonial w-100 px-3 text-center  d-flex flex-direction-column justify-content-center flex-wrap align-items-center">
+                      <div class="message text-center blockquote w-100">Works as advertised. I am duly impressed, as this free app nearly mimics the capabilities of B2M. All it needs is a solution/parameter for evening the lighting in the input textures. Keep up the good work!</div>
+                      <div class="message text-center blockquote w-100">-⋆⋆⋆⋆-</div>
+                      <div class="blockquote-footer w-100 text-white">Bryan Hazzard, Play Store</div>
+                    </div>
+                  </div>
+
+                  <div class="h5 font-weight-normal one-slide mx-auto">
+                    <div class="testimonial w-100 px-3 text-center  d-flex flex-direction-column justify-content-center flex-wrap align-items-center">
+                      <div class="message text-center blockquote w-100">This app is beyond helpful. It even did my laundry and walked my dogs.</div>
+                      <div class="message text-center blockquote w-100">-⋆⋆⋆⋆⋆-</div>
+                      <div class="blockquote-footer w-100 text-white">Tyler, Play Store</div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
     <section class="cta">
       <div class="cta-content">
         <div class="container">
@@ -202,6 +257,8 @@
       </div>
     </section>
 
+
+
     <footer>
       <div class="container">
         <p>&copy; Tenebris Lab 2018. All Rights Reserved.</p>
@@ -213,11 +270,41 @@
             <a href="https://tenebrislab.com">Tenebris Lab</a>
           </li>
           <li class="list-inline-item">
-            <a href="#">FAQ</a>
+            <a  href="#" data-toggle="modal" data-target=".demo-popup">FAQ</a>
           </li>
         </ul>
       </div>
     </footer>
+
+    <div class="modal fade demo-popup mastfoot" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel-1" aria-hidden="true">
+    <div class="modal-dialog">
+    <div class="modal-content">
+    <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+
+    </div>
+    <h3 class="modal-body">         FAQ</h3>
+    <div class="modal-body">
+    <p>What do the sliders do?</p>
+    <p class="small">The help inside Live Normal is interactive and changes depending on where you are inside the app. Open the help panel and click around to better understand what to do.</p>
+    <p class="text-center">___________________________</p>
+    <p>How can I access the texture maps on my PC?</p>
+    <p class="small">On Android the files are located on root of your device or SD-Card in Android\data\com.GerardSlee.LiveNormal\files\ <br>
+    On iOS you need to open iTunes, go to the Application section and look for Live Normal.</p>
+    <p class="text-center">___________________________</p>
+    <p>Can I use genrated textures commercially?</p>
+    <p class="small">All textures generated by Live Normal are your own and can be used as you see fit.</p>
+    <p class="text-center">___________________________</p>
+    <p>Can I suggest a feature?</p>
+    <p class="small">You can send me an email from the about screen inside the app.</p>
+    <p class="text-center">___________________________</p>
+    <!--p>How do you make money?</p>
+    <p class="small">I don't, at least not yet. I will be adding professional features and texture filters to the app.</p>
+    <p class="text-center">___________________________</p -->
+    </div>
+    </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+    </div><!-- /.modal-->
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
@@ -228,6 +315,15 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/new-age.js"></script>
+    <script src="js/carousel.js"></script>
+    <link href="css/test-slider-fullwidth.css" rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+
 
   </body>
 
